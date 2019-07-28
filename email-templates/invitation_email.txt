@@ -1,0 +1,25 @@
+Dear Colleague,
+
+We would like to invite you to participate in the 18th Compiler-Driven Performance Workshop (CDP ‘19) which will be held on Wednesday Oct 31st 2018. CDP will be co-located with the 28th International Conference on Computer Science and Software Engineering (CASCON 2018) in Markham, ON, Canada.
+
+The workshop has a particular focus on (but not limited to):
+Innovative compiler analysis, transformation, and optimization techniques
+Languages, compilers, and optimization techniques for multicore processors and other parallel architectures
+Compiling for streaming or heterogeneous hardware
+Dynamic compilation for high-performance and real-time environments
+Compilation, optimization, and analysis for dynamic languages
+Compilation techniques for reducing power
+Program safety
+Whole system optimization and analysis
+Tools and infrastructure for compiler research
+
+CDP 2018 invites contributions in the form of talk abstracts from researchers and practitioners. Each submission should include talk title, the author list with affiliations, and a brief abstract. Please also identify the presenter and include a 1-2 sentence biography. All submissions should be made through EasyChair no later than *October 5th, 2018*.
+
+CDP does not publish proceedings. Presenters are required to provide an electronic copy of their slides. The slides will be available on this website soon after the workshop. Work that has been recently published or submitted for publication is welcome.
+
+We look forward to your participation in CDP ‘18!
+
+Organizing Committee:
+<name>, <affiliation>
+<name>, <affiliation>
+
