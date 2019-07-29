@@ -37,7 +37,7 @@ Check to see everything works: [https://cc-conference.github.io/18/]
 
 - To add/remove drop-down menus from the main site, edit the file docs/_layouts/default.html
 
-* There is a long entry bracketed by <li> and </li> for each drop-down menu.
+* There is a long entry bracketed by \<li> and \</li> for each drop-down menu.
 * The entries in the menu link to files in the docs folder. For example de "Call for Contributions" menu links to the file docs/call.html.
 
 - Make sure to add the program for the previous year to the folder docs/previous and to create a new entry at the top of the "Previous CDPs" drop-down menu by editing the docs/_layouts/default.html file.
