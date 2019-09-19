@@ -16,7 +16,6 @@ bmahjour@ca.ibm.com
 caomhin@us.ibm.com
 catherin@ca.ibm.com
 cding@cs.rochester.edu
-changyu@ca.ibm.com
 chentong@us.ibm.com
 clump@cs.mcgill.ca
 cmcintyr@ca.ibm.com
@@ -31,7 +30,6 @@ duester@us.ibm.com
 eigenman@ecn.purdue.edu
 enenkel@ca.ibm.com
 etiotto@ca.ibm.com
-evgeniab@ca.ibm.com
 feeley@iro.umontreal.ca
 finlay@ca.ibm.com
 gagnon.etienne_m@uqam.ca
@@ -95,6 +93,7 @@ rjing8@uwo.ca
 rkoo@ca.ibm.com
 rlsawyer@ca.ibm.com
 rmak@ca.ibm.com
+sasha@ece.ubc.ca
 schmeise@ca.ibm.com
 scott@cs.rochester.edu
 scui@ca.ibm.com
