@@ -1,7 +1,7 @@
 # Where things are
-source:       ./previous/CDP19
-destination:  ./previous/CDP19_site
-layouts_dir:  ./previous/CDP19/_layouts
+source:       .
+destination:  ./_site
+layouts_dir:  _layouts
 
 # Handling Reading
 exclude:              [
