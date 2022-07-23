@@ -60,5 +60,5 @@ while IFS= read -r n; do
  echo "J. Nelson Amaral, University of Alberta"
  echo "Kit Barton, IBM Canada"
 
-) | Mail -s "Your help with next Games Party" $ADDRESS
+) | Mail -s "19th Compiler-Driven Performance (CDP) Workshop 2022 -- Call for Participation" $ADDRESS
  done < "$MAILINGLIST"
