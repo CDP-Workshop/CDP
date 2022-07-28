@@ -16,7 +16,7 @@ while IFS= read -r n; do
  echo ""
  echo "which will be held on Tuesday, November 15 2022."
  echo ""
- echo "CDP is an in-person only event co-located with the International Conference on"
+ echo "CDP is an in-person-only event co-located with the International Conference on"
  echo "Computer Science and Software Engineering (CASCON 2022) which is a"
  echo "part of WeaveSphere and will take place in Toronto, ON, Canada."
  echo ""
