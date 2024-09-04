@@ -31,7 +31,7 @@ Once done with changes:
 
 `git push`
 
-Check to see everything works: [https://cc-conference.github.io/18/]
+Check to see everything works: [https://cdp-workshop.github.io/CDP/]
 
 # Changes that are needed each year for a new edition of the workshop
 
