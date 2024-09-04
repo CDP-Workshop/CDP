@@ -5,7 +5,8 @@ Contains the website and the files to support the organization of the Compiler-D
 
 Clone the git repository (change GIT_REPO_NAME): `git clone GIT_REPO_NAME`
 
-Make sure to have the ruby header files installed on your system, then:
+Make sure to have the ruby header files installed on your system.
+Navigate to the docs foldler, then:
 
 `gem install bundler`
 
