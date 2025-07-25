@@ -85,59 +85,59 @@ All submissions should be made through EasyChair no later than September 23 2024
 
 <p> Today's software systems are often composed of several different languages and programming models. At the same time, the underlying processors and memory systems are typically complex, out-of-order, superscalar processors.  Managing this complexity, trying to produce efficient systems in a way that does not increase the burden on programmers, requires constant innovation in compilation methods and optimizations.</p>
 
-    <h4> <a name="LANGUAGES"> Languages, Compilers, and Optimization Techniques for Multicore Processors and Other Parallel Architectures</a></h4>
+    <h4> <a name="LANGUAGES"></a> Languages, Compilers, and Optimization Techniques for Multicore Processors and Other Parallel Architectures</h4>
 
 <p> Highly parallel hardware has created new opportunities for the utilization of such resources by advanced compilers. Progress has been reported both in the development of new analysis techniques and, the exploitation of new technological solutions to facilitate the expression of concurrency and to deal with the needs for computation synchronization, e.g., hardware-supported transactional memory, and for data communication between computing domains. Approaches to improve the utilization of heterogeneous hardware platforms could also be discussed.</p>
 
-    <h4> <a name="STREAMING"> Compiling for Streaming or Heterogeneous Hardware</a></h4>
+    <h4> <a name="STREAMING"></a> Compiling for Streaming or Heterogeneous Hardware</h4>
 
 <p> In addition to highly parallel multiple-core processors for general-purpose and scientific computing, the computer hardware industry is also aggressively pursuing custom computing cores to accelerate key applications. Such heterogeneous computing systems were once limited to the embedded domain, but are becoming increasingly common for general-purpose computing. Examples include cores for encryption, compression, pattern-matching, and systems that have FPGA co-processors, graphics processing units (GPUs), and custom accelerators, which will likely soon be incorporated on-chip with regular processors. The resulting heterogeneous hardware presents another key challenge that the workshop target audience is working to address. </p>
 
-    <h4> <a name="HPC"> Dynamic Compilation for High-Performance and Real-Time Environments</a></h4>
+    <h4> <a name="HPC"></a> Dynamic Compilation for High-Performance and Real-Time Environments</h4>
 
-<p> Of ever-increasing importance are compilers that dynamically translate or optimize programs, not only to support interpreted languages such as Java, but also to exploit the run-time behaviour of programs written in C and C++ to improve efficiency and performance. Run-time adaptation can usually take advantage of more precise state information, allowing systems to present abstracted interfaces while ensuring an efficient implementation. Such layers of abstraction are important to allow programmers to efficiently target the emerging highly parallel and heterogeneous hardware. </p>
+<p> Of ever-increasing importance are compilers that dynamically translate or optimize programs, not only to support interpreted languages such as Java, but also to exploit the run-time behaviour of programs written in C and C++ to improve efficiency and performance. Run-time adaptation can usually take advantage of more precise state information, allowing systems to present abstracted interfaces while ensuring an efficient implementation. Such layers of abstraction are important to allow programmers to efficiently target the emerging highly parallel and heterogeneous hardware.  </p>
 
-    <h4> <a name="DYNAMIC"> Compilation, Optimization, and Analysis for Dynamic Languages</a></h4>
+    <h4> <a name="DYNAMIC"></a> Compilation, Optimization, and Analysis for Dynamic Languages</h4>
 
 <p> The performance of scripting languages such as Python, Ruby, PHP, Javascript, and others is of increasing importance to the overall performance of most online systems. These interpreted, and often dynamically-typed, languages pose many challenges in terms of optimization design and analysis, requiring highly dynamic and adaptive techniques to overcome the lack of static information, language idioms, and novel workloads found in different execution contexts. </p>
 
-    <h4> <a name="POWER"> Compilation Techniques for Reducing Power or Carbon Footprint</a></h4>
+    <h4> <a name="POWER"></a> Compilation Techniques for Reducing Power or Carbon Footprint</h4>
 
 <p> Reducing power consumption and carbon footprint are key challenges for all computer systems, from mobile devices to high-end supercomputers. Compilers that can optimize for power or coordinate the power-reduction features of other parts of the system to reduce carbon footprint are of great interest and, in some areas of the world, can help achieve regulatory requirements. This extends to the compiler itself, incorporating power-friendly methods in the context of dynamic compilation. </p>
 
-    <h4> <a name="RUNTIME"> Techniques to minimize dynamic compiler overheads at runtime</a></h4>
+    <h4> <a name="RUNTIME"></a> Techniques to minimize dynamic compiler overheads at runtime</h4>
 
 <p> Dynamic compilers, like the Java Just In Time compiler, operate at the same time as the program they compile, consuming in some cases substantial amounts of CPU and memory as overheads that both benefit (by providing higher performance code) and hinder (by consuming resources the program would otherwise use) program performance. Techniques that reduce or relocate these overheads can dramatically improve the early ramp-up for programs when dynamic compilation is employed. </p>
 
-    <h4> <a name="SAFETY"> Program Safety</a></h4>
+    <h4> <a name="SAFETY"></a> Program Safety</h4>
 
 <p> The size and complexity of many modern software projects make programming errors both difficult to find and easy to produce. Compiler approaches have shown potential to improve code safety by detecting common bugs ahead of time or by automatically trapping more subtle errors at runtime. Such techniques are likely to play an increasing role in software development, lead to many analysis and runtime optimization challenges, and represent an interesting further application domain for software analysis. </p>
 
-    <h4> <a name="WHOLE"> Whole System Optimization and Analysis</a></h4>
+    <h4> <a name="WHOLE"></a> Whole System Optimization and Analysis</h4>
 
 <p> Many applications are in practice run in a non-trivial context, along with other activities or programs. Individual program behaviours and resource competition then affect overall system performance. Designs that assess complementary or competitive behaviours, or that dynamically adjust individual execution to improve global system usage, extend program optimization and analysis techniques to higher-level execution goals. </p>
 
-    <h4> <a name="TOOLS"> Tools and Infrastructure for Compiler Research</a></h4>
+    <h4> <a name="TOOLS"></a> Tools and Infrastructure for Compiler Research</h4>
 
 <p> The changing technology landscape highlights the need for ever-improving compiler-based tools and infrastructure for understanding programs and performing research. Development of new analysis techniques and optimizations is facilitated by basic program exploration, profiling, and visualization, looking for further sources of semantic meaning that can be applied to improve performance, language design, or toward other optimization goals. </p> 
 
-    <h4> <a name="LLMS"> Leveraging AI and LLMs for code generation, optimization, or compiler construction</a></h4>
+    <h4> <a name="LLMS"></a> Leveraging AI and LLMs for code generation, optimization, or compiler construction</h4>
 
 <p> AI algorithms and Large Language Models in particular have the potential to improve on heuristics built manually for many of the NP complete and worse problems faced by compilers. How can the strengths of these techniques be leveraged practically without sabotaging correctness, reliability, or serviceability for compilers and the code they generate? </p>
 
-    <h4> <a name="TESTINGJIT"> Improvements to testability and reproducibility for JIT compilers</a></h4>
+    <h4> <a name="TESTINGJIT"></a> Improvements to testability and reproducibility for JIT compilers</h4>
 
 <p> Dynamic Just-in-Time compilers have the advantage of operating within a single running instance of a program, which creates opportunities to specialize the generated code both for the environment where the code runs and the data that the program accesses. The downside is that the compiler makes thousands of decisions on the fly in scenarios that may be extremely difficult to reproduce reliably. How can such compilers, which deliver very high performance and must be highly performant themselves, be properly tested to catch bugs but also reliably serviced when bugs do show up in the wild? </p>
 
-    <h4> <a name="SOFTWARE"> Using compiler techniques to improve the quality or performance of software testing</a></h4>
+    <h4> <a name="SOFTWARE"></a> Using compiler techniques to improve the quality or performance of software testing</h4>
 
 <p> To generate efficient code, compilers build a detailed model of the characteristics of software programs. These models can also be used to reflect on the software being compiled, leading to insights for better testing of programs and to improve test coverage. </p>
 
-    <h4> <a name="DEVELOPMENT"> Compilers collaborating with humans to improve software development or quality</a></h4>
+    <h4> <a name="DEVELOPMENT"></a> Compilers collaborating with humans to improve software development or quality</h4>
 
 <p> Compilers are almost invisible to many developers. Yet, a compiler builds detailed models of a program's operation, sometimes even while the program is executing. Can these models be used more collaboratively alongside the human developer to improve the developer's productivity or to enhance the quality of the software produced? </p>
 
-    <h4> <a name="EDUCATION"> Challenges in compiler education for humans and AI</a></h4>
+    <h4> <a name="EDUCATION"></a> Challenges in compiler education for humans and AI</h4>
 
 <p> Compiler technology as awe know it today was originally developed in the 1950s. A compiler course has been a popular undergraduate course for many decades. More recently, many students graduate without a good understanding of what compilers do or how they do it. The automation of the task of creating and improving advanced compilers using AI models is hindered by the limited data available to train such models in a way that enables them to capture the nuances of these designs. The teaching of compilers needs to address the best ways to incorporate AI models in the design of a compiler to more efficiently generate better code. </p>
 
